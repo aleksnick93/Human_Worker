@@ -8,12 +8,15 @@ namespace Human_Worker
 {
     class Human_Worker
     {
-        int success;
-		int motivation;
-		int talent;
-		int skill;
-		bool isSuccessWorker = true;
+        int success = 0;
+		int motivation = 0;
+		int talent = 0;
+		int skill = 0;
+		bool isSuccessWorker = false;
 		
-		public Human_Worker(){}
+		public Human_Worker()
+        {
+            
+        }
     }
 }
