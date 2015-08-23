@@ -8,7 +8,7 @@ namespace Human_Worker
 {
     class Human_Worker
     {
-        int success = 0;
+        int relationship = 0;
 		int motivation = 0;
 		int talent = 0;
 		int skill = 0;
