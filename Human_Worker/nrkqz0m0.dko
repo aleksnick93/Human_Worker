@@ -66,24 +66,6 @@ namespace Human_Worker
             numOfWorkers++;
         }
 
-        public Human_Worker(String name, String surname, int age, String phone)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.age = age;
-            this.phone = phone;
-            numOfWorkers++;
-        }
-
-        public Human_Worker(String name, String surname, String phone, int age)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.age = age;
-            this.phone = phone;
-            numOfWorkers++;
-        }
-
         public Human_Worker(String name, String surname, String phone)
         {
             this.name = name;
@@ -92,23 +74,11 @@ namespace Human_Worker
             numOfWorkers++;
         }
 
-        // Сеттеры
         public void setName(String name) { this.name = name; }
         public void setSurname(String surname) { this.surname = surname; }
         public void setThirdname(String thirdname) { this.thirdname = thirdname; }
         public void setAge(int age) { this.age = age; }
         public void setPhone(String phone) { this.phone = phone; }
-        public void setMail(String mail) { this.mail = mail; }
-
-        //Геттеры
-        public String getName() { return name; }
-        public String getSurname() { return surname; }
-        public String getThirdname() { return thirdname; }
-        public int getAge() { return age; }
-        public String getPhone() { return phone; }
-        public String getMail() { return mail; }
-
-
-
+        public void set
     }
 }
